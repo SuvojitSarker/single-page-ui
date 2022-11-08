@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Talk With IT"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"
+                />
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/media"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/twit3_hand"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/twit4_man"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/twit5_group"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A man is known by the company he keeps/ just as a tree is known by the fruit it bears. Our associates have great influence on our character. A good and virtuous man will, by the silent influence of his example, make us good, a wicked man will make us wicked like himself. Hundreds of young men are led astray by bad companions. It is very easy to yield to temptations.We must choose our companions with very great care. We must shun bad company as poison. In all religions, the company of the virtuous is recommended as a means of spiritual betterment. If we make bad friends, they will spoil our all efforts and bring us disgrace. On the other hand, if someone has good friends, they will bring him honor. It will help him to make progress in life.
+Good men will raise us to their level. Men more learned and experienced than ourselves will guide us aright through the difficulties of life. Their example and their teachings will ennoble us, raise our thoughts, place high ideals before us, and encourage us to do right. They would give us solace in times of distress, and confer peace of mind on us. Young men should always prefer the company of men wiser and better than themselves.
+
+
+
+"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:gravity="left"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/twit2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It is a law of nature that we become like those with whom we live, and if we do not sit in the company of men who are better than ourselves, we shall never improve. If we have something good and noble to look up to, we shall imitate it, and if we have a low and vulgar example before us. we shall follow it, and become like – it. The importance of good company for the elevation of character cannot be overrated."
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#000000"
+                android:gravity="left"
+                />
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Team TWIT"
+                android:layout_marginBottom="60dp"
+                android:backgroundTint="#36E114"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
